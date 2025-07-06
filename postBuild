@@ -1,0 +1,3 @@
+#!/bin/bash
+# Install CmdStan
+Rscript -e "cmdstanr::install_cmdstan()"
