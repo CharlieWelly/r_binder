@@ -33,5 +33,6 @@ install.packages("pls")
 install.packages("caret")
 install.packages("brms") # bayesian for glm with fix and censor
 install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos"))) # To support brms
-install.packages("glmmTMB") # for glm with random effect
+install.packages("glmmTMB", type = "source") # for glm with random effect
 install.packages("splines") # for splines variable transform
+install.package("pscl") # for hurdle model
