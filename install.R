@@ -36,3 +36,7 @@ install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOpt
 install.packages("glmmTMB", type = "source") # for glm with random effect
 install.packages("splines") # for splines variable transform
 install.packages("pscl") # for hurdle model
+install.packages("pROC") # for area under the curve
+install.packages("fitdistrplus") # for fitting various distribution
+install.packages("actuar") # for fitting special dist like pareto
+install.packages("goftest") # for Kolmogorov-smirnov, Anderson-darling tests
